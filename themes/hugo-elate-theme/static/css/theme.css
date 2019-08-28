@@ -1,0 +1,125 @@
+:root {
+  --default-red: #ff5100;
+  --default-grey: #808080;
+  color: var(--default-grey);
+}
+
+#fh5co-home .gradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: .9;
+    -webkit-backface-visibility: hidden;
+    background-color: transparent;
+    /* IE9, iOS 3.2+ */
+    /* background-image: url();  have image*/
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0,  #ff5100)), color-stop(1,  #ff5100);
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(top left,  transparent 0%, #ff5100  100%);
+     /* IE10+ */
+    background-image: repeating-linear-gradient(to bottom right, transparent 0%, #ff5100  100%);
+    background-image: -ms-repeating-linear-gradient(top left,  transparent 0%, #ff5100  100%); 
+  }
+
+  a {
+    color:  #808080;
+  }
+
+  a:hover, a:active, a:focus {
+    color: #ff5100;
+  }
+
+  #fh5co-header .navbar-brand {
+    color: #808080 !important;
+  }
+
+  /* #fh5co-header #navbar li.active a {
+    color: #ffffff !important;
+  } */
+
+  #fh5co-header #navbar li a span:before {
+    color: #ff5100; 
+  }
+
+  #fh5co-header.navbar-fixed-top .navbar-brand {
+    color: #ff5100;
+  }
+
+  #fh5co-header #navbar li a span:before {
+    background-color: #ff5100;
+  }
+
+  /* #fh5co-header #navbar li a:hover {
+    color: #ff5100 !important;
+  } */
+
+.fh5co-animated,
+.slideInDown {
+  color: #ff5100;
+}
+
+/* #fh5co-header.navbar-fixed-top #navbar li.active a span:before{
+  background-color: #ff5100;
+} */
+/* #fh5co-header.navbar-fixed-top #navbar li.active a {
+  background: transparent;
+  background: none;
+  color: #ff5100;
+} */
+
+#fh5co-header.navbar-fixed-top #navbar li a:hover {
+  color: #ff5100;
+}
+.btn.btn-primary {
+  /* color: #808080; */
+  background: #ff5100;
+}
+
+#fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
+  background: transparent !important;
+  border: 2px solid #ff5100 !important;
+}
+
+
+.watch-video .btn-video {
+  border: 2px solid #ff5100;
+}
+
+.section-heading h2:after {
+  background: #808080;
+}
+
+#fh5co-work {
+  background: #ff5100;
+  background-color: transparent;
+    /* IE9, iOS 3.2+ */
+    /* background-image: url();  have image*/
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0,  #ff5100)), color-stop(1,  #ff5100);
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(top left ,#ff5100 0%, #ff5100aa 100%);
+     /* IE10+ */
+    background-image: repeating-linear-gradient(to bottom right, #ff5100 0%, #ff5100aa 100%);
+    background-image: -ms-repeating-linear-gradient(top left,  #ff5100 0%, #ff5100aa 100%); 
+
+}
+
+#fh5co-services {
+  background-color: #ff5100;
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #ff5100), color-stop(1, #ff5100));
+  background-image: -webkit-repeating-linear-gradient(top left, #ff5100 0%, #ff5100 100%);
+  background-image: repeating-linear-gradient(to bottom right, #ff5100 0%, #ff5100 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #ff5100 0%, #ff5100 100%);
+  overflow: hidden;
+  position: relative;
+  color: #ffffaa;
+}
+
+.social.social-circle a {
+  background: #ff5100;
+}
+/* .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+  background: #ff5100;
+} */
