@@ -102,3 +102,39 @@ a:hover, a:active, a:focus {
 .social.social-circle a {
   background: #ff5100;
 }
+
+.fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
+  background-color: #808080;
+}
+
+.fh5co-nav-toggle i {
+  color: #808080;
+  background-color: #808080;
+}
+
+i::after {
+  background: #ff5100 !important;
+  color: #808080;
+}
+
+.fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
+  background: #808080;
+}
+
+/* @media screen and (max-width: 768px) */
+#fh5co-header #navbar li.active a {
+    background: transparent;
+    background: none;
+    color: #e4e4e4 !important;
+}
+
+#fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
+  color: #808080;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a span:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  background-color: #ff5100;
+}

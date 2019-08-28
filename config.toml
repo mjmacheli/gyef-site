@@ -76,7 +76,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Godisanang Information & Computer Centers"
     icon = "icon-play2"
-    url = "https://www.youtube.com/watch?v=nYJTWtT_YVU&list=RDnYJTWtT_YVU&start_radio=1"
+    url = "https://youtu.be/yo4pmauhugo"
 
 
   # Work section
@@ -265,7 +265,6 @@ theme = "hugo-elate-theme"
     title = "Get in touch"
     description = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio null"
     
-    # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "1234 Palm Springs <br> Sebokeng, <br> Gauteng"],
         ["icon-phone", "(123) 465-6789"],
