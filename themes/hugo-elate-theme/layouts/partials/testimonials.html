@@ -1,18 +1,18 @@
-	<section id="fh5co-testimonials" data-section="testimonials">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">{{ with .Site.Params.testimonials.title }}{{ . | markdownify }}{{ end }}</h2>
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>{{ with .Site.Params.testimonials.description }}{{ . | markdownify }}{{ end }}</h3>
-						</div>
+<section id="fh5co-testimonials" data-section="testimonials">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-heading text-center">
+				<h2 class="to-animate">{{ with .Site.Params.testimonials.title }}{{ . | markdownify }}{{ end }}</h2>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 subtext to-animate">
+						<h3>{{ with .Site.Params.testimonials.description }}{{ . | markdownify }}{{ end }}</h3>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+		</div>
+		<div class="row">
 			{{ range .Site.Params.testimonials.item }}
-				<div class="col-md-4">
+			<!-- <div class="col-md-4">
 					<div class="box-testimony">
 						<blockquote class="to-animate-2">
 							<p>{{ .quote | markdownify}}</p>
@@ -22,8 +22,20 @@
 							<p>{{ .person | markdownify }}</p>
 						</div>
 					</div>
+				</div> -->
+			<div class="col-md-4 col-sm-6 col-xxs-12 card">
+				<!-- <a href="images/{{ .img }}" class="fh5co-project-item image-popup to-animate"> -->
+				<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive card-img-top">
+				<!-- <div class="fh5co-text"> -->
+				<div class="class-body">
+					<p class="card-title">{{ .person | markdownify }}</p>
+					<blockquote class="card-text">
+							<p>{{ .quote | markdownify}}</p>
+						</blockquote>
 				</div>
-			{{ end }}
+				</a>
 			</div>
+			{{ end }}
 		</div>
-	</section>
+	</div>
+</section>

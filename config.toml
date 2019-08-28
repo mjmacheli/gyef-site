@@ -53,24 +53,24 @@ theme = "hugo-elate-theme"
     description = "We aim to take part in educational development in our country, formally and informally, through hosting programs that advance the improvement of education and better access to educational opportunities and tertiary"
     url = "#"
     button = "more"
-    icon = "icon-bulb"
-    img = "test.jpg"
+    icon = "icon-star"
+    img = "education.jpeg"
 
   [[params.intro.item]]
     title = "Entrepreneurship"
     description = "We aim at promoting entrepreneurial participation while encouraging the usage of entrepreneurship as a tool to fight crime and unemployment. This is to be achieved through hosting programs that promote entrepreneurship and entrepreneurial education"
     url = "#"
     button = "more"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+    icon = "icon-badge"
+    img = "entrepreneurship.jpeg"
 
   [[params.intro.item]]
   title = "Talent Establishment"
   description = "Talent is one of the most things that are taken for-granted when it comes to youth development. With much observation lot of young people have talents which tend to not be used as much because there are lack of opportunities"
   url = "#"
   button = "more"
-  icon = "icon-wrench"
-  img = "img_8.jpg"
+  icon = "icon-bulb"
+  img = "talent.jpeg"
 
   [params.intro.video]
     enable = true
@@ -129,22 +129,22 @@ theme = "hugo-elate-theme"
     description = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio null"
 
     [[params.testimonials.item]]
-      quote = " Meet Ms Lerato Moloelang (12) <br/><br/>Lerato is a one of South Africa’s youngest writers. Residing in Orlando East, Soweto, this grade 7 twelve-year old has already published a book titled ‘Dreams Come through’ which is aimed at empowering and uplifting her peers. Her books sells at R150 a copy..."
+      quote = "Lerato is a one of South Africa’s youngest writers. Residing in Orlando East, Soweto, this grade 7 twelve-year old has already published a book titled ‘Dreams Come through’ which is aimed at empowering and uplifting her peers. Her books sells at R150 a copy..."
 
-      person = 'Author: Dreams Come true <span class="subtext">#GYEFRecognitions</span>'
+      person = ' Meet Ms Lerato Moloelang (12) '
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "Meet Dr Thandeka Ngcobo <br/><br/>Dr Thandeka Ngcobo is a 24 year old young lady from Ixopo in a small village called Hluthankungu. She grew up loving education and have always wanted to be a doctor when she grows up..."
-      person = 'MBChB, University of KwaZulu-Nata</a> <span class="subtext">#GYEFRecognition</span>'
+      quote = "Dr Thandeka Ngcobo is a 24 year old young lady from Ixopo in a small village called Hluthankungu. She grew up loving education and have always wanted to be a doctor when she grows up..."
+      person = 'Meet Dr Thandeka Ngcobo'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = " Meet Ms Lerato Moloelang (12) <br/><br/>Lerato is a one of South Africa’s youngest writers. Residing in Orlando East, Soweto, this grade 7 twelve-year old has already published a book titled ‘Dreams Come through’ which is aimed at empowering and uplifting her peers. Her books sells at R150 a copy..."
+      quote = "Lerato is a one of South Africa’s youngest writers. Residing in Orlando East, Soweto, this grade 7 twelve-year old has already published a book titled ‘Dreams Come through’ which is aimed at empowering and uplifting her peers. Her books sells at R150 a copy..."
 
-      person = 'Author: Dreams Come true <span class="subtext">#GYEFRecognitions</span>'
+      person = 'Meet Ms Lerato Moloelang (12)'
       img = "person3.jpg"
       alt = "Person3"
     
@@ -160,22 +160,22 @@ theme = "hugo-elate-theme"
     [[params.services.item]]
       title = "Vision"
       description = "GYEF – To see the youth having equal access to sufficient information and opportunities that enable them to have access to a brighter future. **Uplifting the African Youth**"
-      icon = "icon-anchor"
+      icon = "icon-eyeglass"
 
     [[params.services.item]]
       title = "Mission"
       description = "To help as much youth as possible access information and opportunities they need to empower themselves and fight poverty through hosting programs and establishing partnerships that ensure to advance the course"
-      icon = "icon-anchor"
+      icon = "icon-directions"
 
     [[params.services.item]]
       title = "Goals"
       description = "To deliver cost effective, impactful, and competent capacity building programs to disadvantaged communities particularly the youth"
-      icon = "icon-anchor"
+      icon = "icon-target"
 
       [[params.services.item]]
       title = "Objectives"
       description = " >To raise awareness, understanding and knowledge on entrepreneurship to the disadvantaged communities<br/>To provide opportunities that enable the youth to use their talents to better their conditions and escape poverty <br/> To make campaigns that encourage more entrepreneurial participation and promote independence among the community members <br/> To host educational programs that promote health awareness among community members especially the youth To help raise funds to build facilities like libraries, youth centres and sports facilities for the youth"
-      icon = "icon-anchor"
+      icon = "icon-book-open"
 
   # About section
   [params.about]
