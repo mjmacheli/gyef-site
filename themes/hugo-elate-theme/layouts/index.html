@@ -16,7 +16,15 @@
 
 		{{ if .Site.Params.work.enable }}
        		{{ partial "work.html" .}}
+		   {{ end }}
+		   
+		<!-- Partners -->
+
+		{{ if .Site.Params.partners.enable }}
+       		{{ partial "partners.html" . }}
        	{{ end }}
+
+		<!-- Partners -->
 
 		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}

@@ -1,3 +1,5 @@
+/* Written By MJMacheli */
+
 :root {
   --default-red: #ff5100;
   --default-grey: #808080;
@@ -112,6 +114,13 @@ a:hover, a:active, a:focus {
   background-color: #808080;
 }
 
+
+/* Rid off red bg on icons */
+i {
+  background-color: transparent !important;
+}
+
+
 i::after {
   background: #ff5100 !important;
   color: #808080;
@@ -137,4 +146,11 @@ i::after {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   background-color: #ff5100;
+}
+
+
+/* Call to action */
+a.volunteer {
+  border: 2px #ff5100 solid;
+  border-radius: 10px;
 }
